@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+input.text {
+    margin-top: 20px;
+    height: 30px;
+    border-bottom: solid 1px black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: rgb(200,223,234);
+}
+	img {
+    position: relative;
+    bottom: 270px;
+    left: 100px;
+}
+	.place {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 860px;
+    top: 150px;
+    padding: 20px;
+}
+input#email {
+    height: 30px;
+    border-bottom: solid 1px black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: rgb(200,223,234);
+}
+input.password {
+    margin-top: 20px;
+     height: 30px;
+    border-bottom: solid 1px black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: rgb(200,223,234);
+}
+
+input.login {
+    width: 130px;
+    border-radius: 10px;
+    height: 40px;
+    border: none;
+    position: relative;
+    background:white;
+    bottom: 25px;
+}
+input.sign_up {
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 40px;
+    border: none;
+    background:white;
+    position: relative;
+    left: 150px;
+    top: 15px;
+}
+body {
+    background-color:rgb(200,223,234);
+}
+@media only screen and (max-width:1204px){
+     .place{
+      
+       position:relative;
+       left:500px;
+         
+   } 
+    img{
+        width:400px;
+        position:relative;
+        margin-top:80px;
+    }
+    
+}
+@media only screen and (max-width:850px){
+  img{
+      position:relative;
+      top:70px;
+      left:10px;
+  }  
+  .place{
+    position:relative;
+       left:90px;
+  }
+}
