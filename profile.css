@@ -1,0 +1,32 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body {
+    background-color: black;
+}
+.container {
+    color: white;
+    background-color: #15161c;
+    height: 200px;
+    margin-top: 30px;
+}
+label {
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+input#file {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+input[type="submit"] {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+form {
+    position: relative;
+    top: 400px;
+}
