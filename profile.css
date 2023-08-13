@@ -8,23 +8,26 @@ body {
 .container {
     color: white;
     background-color: #15161c;
-    height: 200px;
+    height: 300px;
     margin-top: 30px;
 }
 label {
     position: relative;
     top: 20px;
     left: 10px;
+    font-size: 50px;
 }
 input#file {
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
     margin-left: 10px;
+    font-size: 50px;
+    margin-top: 50px;
 }
 input[type="submit"] {
-    margin-top: 10px;
+    margin-top: 40px;
     margin-left: 10px;
+    font-size: 50px;
 }
 form {
     position: relative;
