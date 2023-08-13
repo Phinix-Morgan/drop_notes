@@ -2,74 +2,17 @@
 <html>
 <head>
 	<title>upload files</title>
+	<link rel="stylesheet" type="text/css" href="profile.css">
 	<link rel="wesite icon" type="png" 
 href="icon3.png">
 </head>
 <body>
-
-<div class="container">
 	<form action="file_uploads1.php" method="post" enctype="multipart/form-data">
-	<label for="file">UPLOAD YOUR FILES HERE..</label>
-
-	<input type="file" name="file[]" id="file" multiple>
-	<input type="submit" name="submit"value="upload files">
-</form>
-
+		<div class="container">
+			<label for="file">UPLOAD YOUR FILES HERE..</label>
+			<input type="file" name="file[]" id="file" multiple>
+			<input type="submit" name="submit"value="upload files">
+	</form>
 </div>
-
-
 </body>
-<style>
-
-	
-	input#submit {
-    position: relative;
-    top: 390px;
-    height: 40px;
-    width: 140px;
-    border-radius: 5px;
-    border: none;
-    right: 208px;
-}
-
-	.container{
-		height: 500px;
-		width: 700px;
-		background-color:lightgray;
-		border-radius: 10px;
-		position: absolute;
-		left: 650px;
-		top:90px;
-
-
-	}
-	body {
-    height: 100vh;
-    background:white;
-}
-
-label {
-    text-align: center;
-    position: relative;
-    left: 237px;
-    top: 260px;
-}
-
-input#file {
-    background: gray;
-    height: 40px;
-    position: relative;
-    padding: 10px;
-    top: 300px;
-    border-radius: 10px;
-}
-
-input#file-upload-button{
-	background-color: red;
-}
-
-
-</style>
-
-
 </html>
