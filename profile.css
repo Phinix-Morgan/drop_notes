@@ -1,88 +1,32 @@
 *{
-    margin: 0px;
-    padding: 0px;
-}
-input.text {
-    margin-top: 20px;
-    height: 30px;
-    border-bottom: solid 1px black;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    background: rgb(200,223,234);
-}
-	img {
-    position: relative;
-    bottom: 270px;
-    left: 100px;
-}
-	.place {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    height: 300px;
-    position: relative;
-    left: 860px;
-    top: 150px;
-    padding: 20px;
-}
-input#email {
-    height: 30px;
-    border-bottom: solid 1px black;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    background: rgb(200,223,234);
-}
-input.password {
-    margin-top: 20px;
-     height: 30px;
-    border-bottom: solid 1px black;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    background: rgb(200,223,234);
-}
-
-input.login {
-    width: 130px;
-    border-radius: 10px;
-    height: 40px;
-    border: none;
-    position: relative;
-    background:white;
-    bottom: 25px;
-}
-input.sign_up {
-    width: 150px;
-    margin-top: 20px;
-    border-radius: 10px;
-    height: 40px;
-    border: none;
-    background:white;
-    position: relative;
-    left: 150px;
-    top: 15px;
+	padding: 0px;
+	margin: 0px;
 }
 body {
-    background-color:rgb(200,223,234);
+    background-color: black;
 }
-
-@media only screen and (max-width:1204px){
-     .place{
-        position:relative;
-        left:500px;
-    }
-    img{
-        width:400px;
-        position:relative;
-        margin-top:80px;
-    }
+.container {
+    color: white;
+    background-color: #15161c;
+    height: 200px;
+    margin-top: 30px;
 }
-
-@media only screen and (max-width:850px){
-    input.sign_up {
-        position:relative;
-        top:100px;
-    }
+label {
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+input#file {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+input[type="submit"] {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+form {
+    position: relative;
+    top: 400px;
 }
