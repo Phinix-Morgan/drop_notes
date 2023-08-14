@@ -30,3 +30,33 @@ form {
     position: relative;
     top: 400px;
 }
+
+
+/*responsive design  */
+
+/*large  and small screen laptops */
+@media screen and (max-width: 1200px) {
+    label{
+        font-size:50px;
+		color:blue;
+    }
+}
+/*smartphones and tablets */
+@media screen and (max-width: 768px) {
+    label{
+        font-size:30px;
+        color: red;
+    }
+	.container{
+		height:300px;
+	}
+	input#file{
+		font-size:20px;
+		margin-top:50px;
+		
+	}
+	input{
+		font-size:20px;
+		height:30px;
+	}
+}
