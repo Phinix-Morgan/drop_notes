@@ -5,4 +5,4 @@ here we have used (images) folder to move uploaded files .
 index.html file is not necessary
 (to see it as working you all need to host it )
 you can also check it on your localhost(note:payattention to the (database name) and( table & fields name ) 
-# we are still working on it (so far we are on starting stage)
+# we are still working on it (so far we are on beginning stag of the project.)
